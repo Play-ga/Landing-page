@@ -1,0 +1,150 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<title>My Food Blog Landing Page </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  * {box-sizing: border-box;}
+body{
+   background-image: url('hotel.jpg'); 
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ }
+.header {
+  font-family: cursive;
+  color: black;
+  text-align: center;
+  padding: 0.1px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #400;
+}
+.topnav a {
+  font-size: 20px;
+  float: left;
+  color: white;
+  padding: 14px 16px;
+}
+.search-container {
+  float: right;
+  padding: 14px 16PX;
+}
+.heading {
+  font-family: cursive;
+  color: black;
+  text-align: left;
+  padding: 10px;
+}
+.button {
+  background-color: #f9c74f;
+  padding: 20px 20px;
+  border-radius: 20px;
+  }
+ .desc {
+  font-family: cursive;
+  font-size: 20px;
+  color: darkcyan;
+  padding: 5px 5px;
+  text-align: left;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+.responsive {
+  padding: 0 10px;
+  float: left;
+  width: 24%;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.contact {
+    color: black;
+    text-align: left;
+    font-family: cursive;
+    font-weight: bold;
+   }
+.footer {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<div class="header">
+<h1>"Healthy Plate, Happy Heart"</h1>
+</div>
+
+<div class="topnav">
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Recipes</a>
+<div class="search-container">
+<form action="/action_page.php">
+<input type="text" placeholder="Search.." name="search">
+<button>Go</button>
+</form>
+</div></div>
+
+<div class="heading">
+<h2>My Popular Food Recipes</h2>
+</div> </div>
+
+<div class="responsive">
+<div class="gallery">
+<div class="button">
+<div class="desc">Delicious Kheer</div>
+<a target="_blank" href="kheer.jfif">
+<img src="kheer.jfif">
+</a>
+<button onclick="document.location='recipe.jpg'";>Jump to the Recipe</button>
+</div>  </div>  </div>
+
+<div class="responsive">
+<div class="gallery">
+<div class="button">
+<div class="desc">Heavenly Cake</div>
+<a target="_blank" href="cake.jfif">
+<img src="cake.jfif">
+</a>
+<button onclick="document.location='recipe.jpg'";>Jump to the Recipe</button>
+</div> </div> </div>
+
+<div class="responsive">
+<div class="gallery">
+<div class="button">
+<div class="desc">Appetizer Paneer</div>
+<a target="_blank" href="paneer.jfif">
+<img src="paneer.jfif">
+</a>
+<button onclick="document.location='recipe.jpg'";>Jump to the Recipe</button>
+</div> </div> </div>
+
+<div class="responsive">
+<div class="gallery">
+<div class="button">
+<div class="desc">Awesome Biriyani</div>
+<a target="_blank" href="biriyani.jfif">
+<img src="biriyani.jfif">
+</a>
+<button onclick="document.location='recipe.jpg'";>Jump to the Recipe</button>
+</div> </div> </div>
+
+<div class="clearfix"></div>
+<br>
+<div class="contact">
+<p>Contact me at: sree2218@gmail.com</p>
+</div><br>
+<div class="footer">
+<p>&copy; My Food Blog Landing Page - 2024. All Rights Reserved.</p>
+</div>
+</body>
+</html>
